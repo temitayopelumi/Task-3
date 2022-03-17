@@ -3,7 +3,7 @@
 ERC-20 contract: https://rinkeby.etherscan.io/address/0xb44F54651e2F2B3b2Bb04a85Fcd1E2a14DF747Ca#code
 
 
-ERC721 contract: https://rinkeby.etherscan.io/address/0x47DBE893Ce867CF2778B912BbE3375fce075e9F6#code
+ERC721 contract: https://rinkeby.etherscan.io/address/0xC4B4e0f9703121f4dc7b6D92924066A8740039Ad#code
 
 
 ipfs img link: https://ipfs.io/ipfs/QmRACUszKQDWUmEjTnRYMc4zA3fRHG3fCoWpKMzGS76hsf?filename=Screen%20Shot%202022-03-16%20at%204.13.22%20PM.png and https://ipfs.io/ipfs/QmQENiqmAy9FoAKePKPXPrtGmy7Kkgo5WfZ84TvajZvVpe?filename=Screen%20Shot%202022-03-16%20at%204.37.15%20PM.png
