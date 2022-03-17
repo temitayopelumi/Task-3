@@ -1,5 +1,5 @@
 const HDWalletProvider = require("@truffle/hdwallet-provider");
-
+require('dotenv').config()
 /**
  * Use this file to configure your truffle project. It's seeded with some
  * common settings for different networks and features like migrations,
@@ -25,7 +25,7 @@ const HDWalletProvider = require("@truffle/hdwallet-provider");
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
 const private_keys = ["e2df342ba5ee6b9a1f2d55e1e7a01c978f115d740b98af52aa62be123b9a875e", "ce5982868b2d498f28fcacd77f45328de93184640ff423952d3429a3d71a4a71"];
-const Phase="embark flock wear grit gas core sea drama fringe chaos fuel chef"
+const Phase=process.env.Phase
 
 module.exports = {
   /**
@@ -122,6 +122,6 @@ module.exports = {
     'truffle-plugin-verify'
   ],
   api_keys: {
-    etherscan: "CG2DSVT71GCEMYZ7BU72XYRZXBPWXPQ819"
+    etherscan: process.env.etherscan
   }
 };
